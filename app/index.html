@@ -34,18 +34,26 @@
             height: 60px;
             width: 60px;
         }
+
+        .bg-blue-500 {
+            background-color: #3b82f6;
+        }
+
+        .hover\:bg-blue-700:hover {
+            background-color: #1d4ed8;
+        }
     </style>
 </head>
 
 <body>
 
-    <h2>vertical-align: top;</h2>
+    <h2 class="bg-blue-500 hover:bg-blue-700">vertical-align: top;</h2>
     <p>Some text with images:
         <img class="small-top" src="https://via.placeholder.com/20" alt="small-image"> small image,
         <img class="large-top" src="https://via.placeholder.com/60" alt="large-image"> large image.
     </p>
 
-    <h2>vertical-align: text-top;</h2>
+    <h2 class="bg-blue-500 hover:bg-blue-700">vertical-align: text-top;</h2>
     <p>Some text with images:
         <img class="small-text-top" src="https://via.placeholder.com/20" alt="small-image"> small image,
         <img class="small-text-bottom" src="https://via.placeholder.com/20" alt="small-image"> small image,
