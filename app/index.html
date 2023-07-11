@@ -42,6 +42,12 @@
         .hover\:bg-blue-700:hover {
             background-color: #1d4ed8;
         }
+
+        button[disabled] {
+            cursor: not-allowed;
+            opacity: 0.5;
+            border: 1px solid red;
+        }
     </style>
 </head>
 
@@ -60,6 +66,7 @@
         <img class="large-text-top" src="https://via.placeholder.com/60" alt="large-image"> large image.
     </p>
 
+    <button disabled>Disabled</button>
 </body>
 
 </html>
